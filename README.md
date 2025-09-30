@@ -27,6 +27,9 @@ finally achieve good user experience:
 - *Download your music*, with [spotdl](https://github.com/spotDL/spotify-downloader)
 - *Host a music server*, with [mpd](https://github.com/MusicPlayerDaemon/MPD)
 - *Connect using a client app*, with [mlpd](https://gitlab.com/gateship-one/malp)
+
+![Network Diagram](./assets/network-diagram.svg)
+
 When you are away from your home network or 
 it's simply unreachable, run your a **mpd**
 directly on your phone.
