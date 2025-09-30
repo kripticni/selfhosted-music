@@ -20,6 +20,8 @@ MUSIC_DIR="$HOME/Music"
 mkdir -p "$CONFIG_PATH"
 mkdir -p "$HOME/Music"
 touch "$CONFIG_PATH/mpd.conf"
+touch "$CONFIG_PATH/pid"
+touch "$CONFIG_PATH/database"
 mkdir -p "$CONFIG_PATH/playlists"
 
 cat > "$CONFIG_PATH/mpd.conf" << EOF
