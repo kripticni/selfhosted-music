@@ -118,7 +118,7 @@ port "6600"
 EOF
 
 echo "Putting mpdswp.sh into /usr/local/bin..."
-cp ./mpdswp.sh /usr/local/bin
+cp ./mpdswp.sh "$PATH"/mpdswp
 
 echo "Starting mpd server..."
 echo "(to stop use mpd --kill)"
