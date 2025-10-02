@@ -26,9 +26,11 @@ Selfhost your music to take control, and
 finally achieve good user experience:
 - *Download your music*, with [spotdl](https://github.com/spotDL/spotify-downloader)
 - *Host a music server*, with [mpd](https://github.com/MusicPlayerDaemon/MPD)
-- *Connect using a client app*, with [mlpd](https://gitlab.com/gateship-one/malp)
+- *Connect using a client app*, with [mlpd](https://gitlab.com/gateship-one/malp) or [ymuse](https://github.com/yktoo/ymuse)
+- Or don't even use a client app, connect to a *http stream* with [VLC](https://code.videolan.org/videolan/vlc)
 
 ![Network Diagram](./assets/network-diagram.svg)
+(drawn with [Excalidraw](https://excalidraw.com/))
 
 When you are away from your home network or 
 it's simply unreachable, run your a **mpd**
